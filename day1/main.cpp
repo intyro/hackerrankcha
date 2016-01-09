@@ -1,17 +1,20 @@
+#include <cmath>
+#include <cstdio>
+#include <vector>
 #include <iostream>
-
+#include <algorithm>
 using namespace std;
 
 int main()
 {
-    cout << "Primitive : Double\n";
-    cout << "Primitive : Character\n";
-    cout << "Primitive : Boolean\n";
-    cout << "Primitive : Integer\n";
+    cout << "Primitive : double\n";
+    cout << "Primitive : char\n";
+    cout << "Primitive : boolean\n";
+    cout << "Primitive : int\n";
     cout << "Referenced : String\n";
-    cout << "Primitive : Boolean\n";
-    cout << "Primitive : Double\n";
-    cout << "Primitive : Character\n";
+    cout << "Primitive : boolean\n";
+    cout << "Primitive : double\n";
+    cout << "Primitive : char\n";
     cout << "Referenced : String\n";
     return 0;
 }
